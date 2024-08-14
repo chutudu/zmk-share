@@ -1,10 +1,10 @@
 #board: [ "nice_nano_v2", "seeeduino_xiao_ble" ]
 #shield: [ "revj41" ]
 include:    
-  - board: seeeduino_xiao_ble
-    shield: chippy_left    
-  - board: seeeduino_xiao_ble   
-    shield: chippy_right
+#  - board: seeeduino_xiao_ble
+#    shield: chippy_left    
+#  - board: seeeduino_xiao_ble   
+#    shield: chippy_right
   - board: seeeduino_xiao_ble
     shield: chipper_left
   - board: seeeduino_xiao_ble
