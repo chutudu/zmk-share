@@ -125,9 +125,9 @@
 // |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | 
 //             | GUI | LWR | ENT |   | SPC | RSE  | ALT |
                         bindings = <
-   &kp Q &kp W &kp E &kp R &kp T &kp Y   &kp U  &kp I &kp O &kp P &kp LBKT &kp RBKT
-   &bh 3 A &kp S &kp D &kp F &kp G &kp H   &kp J  &kp K &kp L &kp SQT &kp GRAVE &kp ESC
-   &mt LSHFT Z &kp X &kp C &kp V &kp B &kp N   &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHFT BSPC
+   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P
+   &bh 3 A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K &kp L   &kp SQT
+   &mt LSHFT Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &mt RSHFT FSLH
         &kp LGUI &bh 1 HOME &mt LCTRL RET   &kp SPACE &bh 2 END &mt RALT LG(V)
                         >;
 		label = "BASE";
@@ -135,9 +135,9 @@
                 lower_layer {
 
                         bindings = <
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR &kp PG_UP   &kp N7 &kp N8 &kp N9 &kp BSPC &kp BSLH &kp LSHFT
-   &kp F2       &hm LCTRL F3  &hm LSHFT F4  &hm LALT F5  &hm LGUI F6  &kp PG_DN   &kp N4 &kp N5 &kp N6 &kp MINS &kp EQL &kp TILDE
-   &kp F7       &kp F8       &kp F10      &kp F11      &kp F12  &kp INS   &kp N1 &kp N2 &kp N3  &kp LC(RET) &kp F13 &kp F14
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR     &kp PG_UP &kp N7 &kp N8 &kp N9 &kp BSPC
+   &kp F2       &hm LCTRL F3  &hm LSHFT F4  &hm LALT F5  &hm LGUI F6         &kp PG_DN &kp N4 &kp N5 &kp N6 &kp BSLH
+   &kp F7       &kp F8       &kp F10      &kp F11      &kp F12        &kp INS &kp N1 &kp N2 &kp N3  &kp LC(RET)
                	        &kp LC(LA(LSHFT)) &trans       &mt RALT RET      &mt LCTRL F1  &kp N0  &mt LSHFT DOT
                         >;
 		label = "Numbers";
